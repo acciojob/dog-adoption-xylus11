@@ -1,45 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adaptation App</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<form method="post">
-		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="Name" name="name">
-		<br>
-		<br>
-		<label for="phone">Phone Number</label>
-		<input type="text" id="phone" placeholder="Phone Number" name="phone">
-		<br>
-		<br>
-		<label for="address">Address</label>
-		<input type="text" id="address" placeholder="Address" name="address">
-		<br>
-		<br>
-		<label for="checkbox">Have you ever lived with a Dog before?</label>
-		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?" name="checkbox">
-		<br>
-		<br>
-		<label for="multiSelect">Please select your preferred breeds</label>
-		<select id="multiSelect">
-			<option value="german">German Shepherd</option>
-			<option value="bulldog">BullDog</option>
-			<option value="retriver">Retriver</option>
-		</select>
-		<br>
-		<br>
-
-		<button type="submit" value="Submit" id="submit">Submit</button>
-		
-	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    
+    <form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <input type="text" id="address" placeholder="Address">
+        <label><input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?"></label>
+        <Select id="multiSelect">
+            <option>Pitbul</option>
+            <option>German Shephard</option>
+            <option>Doberman</option>
+        </Select>
+        <input type="submit" id="submit" value="Submit">
+    </form>
+    
 </body>
-
 </html>
